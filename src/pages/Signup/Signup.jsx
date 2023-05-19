@@ -1,26 +1,28 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import login from '../../assets/images/login.jpg'
 import SocialLogin from '../Shared/SocialLogin/SocialLogin';
+import { AuthContext } from '../../providers/AuthProvider';
 
 const SignUp = () => {
 
-    // const {createUser} = useContext(AuthContext)
+    const {createUser} = useContext(AuthContext)
 
     const handleSignUp = event => {
         event.preventDefault();
-        // const form = event.target;
-        // const name = form.name.value;
-        // const email = form.email.value;
-        // const password = form.password.value;
-        // console.log(name, email, password)
+        const form = event.target;
+        const name = form.name.value;
+        // const photo = form.photo.value;
+        const email = form.email.value;
+        const password = form.password.value;
+        console.log(name, email, password)
 
-        // createUser(email, password)
-        // .then(result => {
-        //     const user = result.user;
-        //     console.log(user)
-        // })
-        // .catch(error => console.log(error))
+        createUser(email, password)
+        .then(result => {
+            const user = result.user;
+            console.log(user)
+        })
+        .catch(error => console.log(error))
     }
 
     return (
@@ -43,7 +45,7 @@ const SignUp = () => {
                                 <label className="label">
                                     <span className="label-text">Photo URL</span>
                                 </label>
-                                <input type="text" name='photo' placeholder="Photo URL" className="input input-bordered" required />
+                                <input type="text" name='photo' placeholder="Photo URL" className="input input-bordered"  />
                             </div>
                             <div className="form-control">
                                 <label className="label">
