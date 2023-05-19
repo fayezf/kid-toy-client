@@ -1,0 +1,212 @@
+[
+    {
+      "toyName": "Chemical Creations",
+      "sellerName": "Science Toys Inc.",
+      "sellerEmail": "toys@sciencetoys.com",
+      "subCategory": "chemistry-toys",
+      "price": "$39.99",
+      "rating": 4.8,
+      "availableQuantity": 200,
+      "pictureURL": "https://i.ibb.co/pwTz00h/chemistry1.jpg",
+      "detailDescription": "Chemical Creations is an exciting chemistry toy designed to introduce children to the wonders of chemical reactions. The set includes various safe and engaging experiments, allowing kids to create colorful reactions, grow crystals, and explore the basics of chemical bonding. Science Toys Inc. is a trusted name in educational toys, dedicated to fostering scientific curiosity and learning in young minds. With Chemical Creations, children can have fun while learning essential concepts in chemistry. Suitable for ages 8 and above."
+    },
+    {
+      "toyName": "Microscopic World",
+      "sellerName": "Discover Science",
+      "sellerEmail": "info@discoverscience.com",
+      "subCategory": "biology-toys",
+      "price": "$79.99",
+      "rating": 4.6,
+      "availableQuantity": 150,
+      "pictureURL": "https://i.ibb.co/WFkqGrm/biology1.jpg",
+      "detailDescription": "Embark on a journey into the microscopic world with this amazing biology toy. Microscopic World comes with a high-quality microscope, prepared slides, and a comprehensive guidebook. Children can explore the intricate structures of cells, observe microorganisms, and develop a deeper understanding of the fascinating world of biology. Discover Science is committed to promoting scientific exploration and offers this engaging toy for curious young minds. Suitable for ages 10 and above."
+    },
+    {
+      "toyName": "Einstein's Universe",
+      "sellerName": "ScienceGeek",
+      "sellerEmail": "sales@sciencegeek.com",
+      "subCategory": "physics-toys",
+      "price": "$149.99",
+      "rating": 4.9,
+      "availableQuantity": 100,
+      "pictureURL": "https://i.ibb.co/vsmV53V/physics1.jpg",
+      "detailDescription": "Step into the world of physics with Einstein's Universe. This educational toy allows kids to conduct experiments related to light, motion, and energy. Through hands-on activities, children can grasp fundamental physics concepts while having fun. ScienceGeek is a renowned brand that specializes in science toys, and Einstein's Universe is a testament to their commitment to quality and education. Inspire your little scientist to explore the laws that govern our universe. Suitable for ages 12 and above."
+    },
+    {
+      "toyName": "Math Mastermind",
+      "sellerName": "Number Ninjas",
+      "sellerEmail": "info@numberninjas.com",
+      "subCategory": "math-toys",
+      "price": "$34.99",
+      "rating": 4.2,
+      "availableQuantity": 300,
+      "pictureURL": "https://i.ibb.co/RQ0LXtz/math1.jpg",
+      "detailDescription": "Math Mastermind is a captivating math toy that makes learning arithmetic enjoyable. With a variety of puzzles, games, and challenges, children can enhance their problem-solving skills and develop a love for mathematics. Number Ninjas is dedicated to making math fun and accessible to all, and Math Mastermind is a testament to their mission. Join the world of numbers and unleash your mathematical potential. Suitable for ages 6 and above."
+    },
+    {
+      "toyName": "Geology Explorer",
+      "sellerName": "Earth Sciences",
+      "sellerEmail": "sales@earthsciences.com",
+      "subCategory": "geology-toys",
+      "price": "$59.99",
+      "rating": 4.4,
+      "availableQuantity": 250,
+      "pictureURL": "https://i.ibb.co/HHgzXyN/geology1.jpg",
+      "detailDescription": "Unearth the secrets of the Earth with Geology Explorer. This toy allows children to study rocks, minerals, and fossils in a hands-on manner. With a rock hammer, magnifying glass, and an informative guidebook, young geologists can embark on exciting explorations. Earth Sciences is a trusted name in geological education, and Geology Explorer is designed to spark curiosity and appreciation for the Earth's geological wonders. Suitable for ages 9 and above."
+    },
+    {
+      "toyName": "Astro Adventures",
+      "sellerName": "Stellar Toys",
+      "sellerEmail": "contact@stellartoys.com",
+      "subCategory": "astronomy-toys",
+      "price": "$89.99",
+      "rating": 4.7,
+      "availableQuantity": 120,
+      "pictureURL": "https://i.ibb.co/Mkt5Q1V/astronomy1.jpg",
+      "detailDescription": "Embark on a celestial journey with Astro Adventures. This astronomy toy allows children to explore the wonders of space through interactive experiments and stargazing activities. With a star projector, constellation maps, and an informative booklet, kids can learn about planets, galaxies, and the mysteries of the universe. Stellar Toys is dedicated to igniting a passion for astronomy in young minds, and Astro Adventures is a gateway to astronomical discoveries. Suitable for ages 8 and above."
+    },
+    {
+      "toyName": "Robotics Pro",
+      "sellerName": "TechBots",
+      "sellerEmail": "info@techbots.com",
+      "subCategory": "technology-toys",
+      "price": "$199.99",
+      "rating": 4.9,
+      "availableQuantity": 80,
+      "pictureURL": "https://i.ibb.co/Fn1NBF3/technology1.jpg",
+      "detailDescription": "Unleash your creativity and coding skills with Robotics Pro. This advanced robotics kit allows children to build and program their own robots, encouraging hands-on learning and computational thinking. TechBots is a leading name in educational technology, empowering young innovators to explore the field of robotics. With Robotics Pro, the possibilities are endless. Develop problem-solving abilities and embark on exciting technological adventures. Suitable for ages 10 and above."
+    },
+    {
+      "toyName": "DNA Discovery Kit",
+      "sellerName": "Genetics Galore",
+      "sellerEmail": "sales@geneticsgalore.com",
+      "subCategory": "biology-toys",
+      "price": "$49.99",
+      "rating": 4.5,
+      "availableQuantity": 180,
+      "pictureURL": "https://i.ibb.co/2tzXCBK/biology2.jpg",
+      "detailDescription": "Unlock the secrets of life with the DNA Discovery Kit. This engaging biology toy introduces children to the fascinating world of genetics. Through hands-on experiments, kids can extract DNA, learn about genetic traits, and understand the building blocks of life. Genetics Galore is committed to promoting genetic literacy, and the DNA Discovery Kit is a testament to their dedication. Embark on a genetic adventure and unravel the mysteries of life. Suitable for ages 11 and above."
+    },
+    {
+      "toyName": "Math Puzzle Palace",
+      "sellerName": "Brainy Games",
+      "sellerEmail": "info@brainygames.com",
+      "subCategory": "math-toys",
+      "price": "$29.99",
+      "rating": 4.1,
+      "availableQuantity": 400,
+      "pictureURL": "https://i.ibb.co/3dp1h4g/math2.jpg",
+      "detailDescription": "Enter the Math Puzzle Palace and challenge your mathematical skills. This toy features an array of brain-teasing puzzles, riddles, and mathematical challenges, promoting logical thinking and problem-solving abilities. Brainy Games aims to make math enjoyable and accessible to all, and Math Puzzle Palace is an exciting addition to their collection. Unlock the mysteries of numbers and embark on a puzzling mathematical adventure. Suitable for ages 7 and above."
+    },
+    {
+      "toyName": "Electric Circuitry Lab",
+      "sellerName": "ElectroTech",
+      "sellerEmail": "sales@electrotech.com",
+      "subCategory": "physics-toys",
+      "price": "$69.99",
+      "rating": 4.7,
+      "availableQuantity": 150,
+      "pictureURL": "https://i.ibb.co/8mWQpnw/physics2.jpg",
+      "detailDescription": "Explore the world of electricity and circuits with the Electric Circuitry Lab. This hands-on physics toy allows children to build and experiment with various electrical circuits, fostering an understanding of electricity and its applications. ElectroTech specializes in educational electronics, and the Electric Circuitry Lab is a testament to their commitment to STEM education. Unleash your inner engineer and discover the wonders of electricity. Suitable for ages 9 and above."
+    },
+    {
+      "toyName": "Botany Basics",
+      "sellerName": "Green Thumb Toys",
+      "sellerEmail": "info@greenthumbtoys.com",
+      "subCategory": "biology-toys",
+      "price": "$39.99",
+      "rating": 4.3,
+      "availableQuantity": 250,
+      "pictureURL": "https://i.ibb.co/bWFpTVm/biology3.jpg",
+      "detailDescription": "Botany Basics is a captivating biology toy that introduces children to the world of plants. With a mini greenhouse, seeds, and a comprehensive guide, kids can learn about plant growth, photosynthesis, and the importance of plants in our ecosystem. Green Thumb Toys aims to nurture a love for nature and environmental awareness through their toys. Let your child's curiosity blossom with Botany Basics. Suitable for ages 8 and above."
+    },
+    {
+      "toyName": "Math Whiz",
+      "sellerName": "Genius Games",
+      "sellerEmail": "sales@geniusgames.com",
+      "subCategory": "math-toys",
+      "price": "$49.99",
+      "rating": 4.6,
+      "availableQuantity": 200,
+      "pictureURL": "https://i.ibb.co/z2TFzMG/math3.jpg",
+      "detailDescription": "Unleash your mathematical genius with Math Whiz. This interactive math toy combines learning and fun through a series of puzzles, quizzes, and challenges. Genius Games is dedicated to making science and math exciting, and Math Whiz is a testament to their mission. Sharpen your math skills, tackle tricky problems, and become a true Math Whiz. Suitable for ages 9 and above."
+    },
+    {
+      "toyName": "Earth Science Explorers",
+      "sellerName": "Science Adventures",
+      "sellerEmail": "info@scienceadventures.com",
+      "subCategory": "geology-toys",
+      "price": "$59.99",
+      "rating": 4.4,
+      "availableQuantity": 180,
+      "pictureURL": "https://i.ibb.co/KbvcMSn/geology2.jpg",
+      "detailDescription": "Embark on an exciting journey into Earth's geological wonders with Earth Science Explorers. This toy includes hands-on experiments, rock samples, and informative materials to help children understand geological processes and formations. Science Adventures is passionate about fostering scientific curiosity, and Earth Science Explorers is designed to ignite a love for Earth sciences. Delve into the depths of our planet and unravel its geological mysteries. Suitable for ages 10 and above."
+    },
+    {
+      "toyName": "Robot Buddy",
+      "sellerName": "TechPlay",
+      "sellerEmail": "info@techplay.com",
+      "subCategory": "technology-toys",
+      "price": "$79.99",
+      "rating": 4.7,
+      "availableQuantity": 120,
+      "pictureURL": "https://i.ibb.co/svHs6LC/technology2.jpg",
+      "detailDescription": "Introducing Robot Buddy, your interactive companion in the world of robotics. This toy combines artificial intelligence and programming to offer endless fun and learning opportunities. TechPlay is at the forefront of educational technology, empowering young minds to explore the wonders of robotics. With Robot Buddy, children can build, program, and play, fostering creativity and technological literacy. Embark on exciting robotic adventures with your new best friend. Suitable for ages 8 and above."
+    },
+    {
+      "toyName": "Nature's Secrets",
+      "sellerName": "Wildlife Explorers",
+      "sellerEmail": "contact@wildlifeexplorers.com",
+      "subCategory": "biology-toys",
+      "price": "$44.99",
+      "rating": 4.3,
+      "availableQuantity": 250,
+      "pictureURL": "https://i.ibb.co/mHyXfGj/biology4.jpg",
+      "detailDescription": "Discover the wonders of nature with Nature's Secrets. This biology toy allows children to explore ecosystems, identify plants and animals, and understand the delicate balance of nature. Wildlife Explorers is passionate about wildlife conservation and environmental education, and Nature's Secrets reflects their dedication. Engage in hands-on learning and develop a deeper appreciation for the natural world. Suitable for ages 7 and above."
+    },
+    {
+      "toyName": "Math Magician",
+      "sellerName": "Number Geniuses",
+      "sellerEmail": "info@numbergeniuses.com",
+      "subCategory": "math-toys",
+      "price": "$39.99",
+      "rating": 4.5,
+      "availableQuantity": 200,
+      "pictureURL": "https://i.ibb.co/d7vtNwm/math4.jpg",
+      "detailDescription": "Unleash your mathematical prowess with Math Magician. This interactive toy offers a variety of math challenges, puzzles, and tricks to develop mental calculation skills and enhance mathematical intuition. Number Geniuses is committed to making math engaging and accessible, and Math Magician is a testament to their mission. Become a master of numbers and unlock the secrets of mathematical magic. Suitable for ages 10 and above."
+    },
+    {
+      "toyName": "Astronomy Adventure Set",
+      "sellerName": "Star Seekers",
+      "sellerEmail": "sales@starseekers.com",
+      "subCategory": "astronomy-toys",
+      "price": "$99.99",
+      "rating": 4.8,
+      "availableQuantity": 100,
+      "pictureURL": "https://i.ibb.co/TTjLhq0/astronoomy2.jpg",
+      "detailDescription": "Embark on an astronomical adventure with the Astronomy Adventure Set. This comprehensive kit includes a telescope, star charts, and a guidebook to help children explore the wonders of the night sky. Star Seekers is dedicated to igniting a passion for astronomy, and the Astronomy Adventure Set is designed to inspire young stargazers. Discover constellations, observe planets, and gaze at the beauty of the universe. Suitable for ages 10 and above."
+    },
+    {
+      "toyName": "Chemistry Concoctions",
+      "sellerName": "Science Wizards",
+      "sellerEmail": "info@sciencewizards.com",
+      "subCategory": "chemistry-toys",
+      "price": "$49.99",
+      "rating": 4.6,
+      "availableQuantity": 180,
+      "pictureURL": "https://i.ibb.co/8XN9Rng/chemistry2.jpg",
+      "detailDescription": "Unleash your inner chemist with Chemistry Concoctions. This exciting toy allows children to perform safe and engaging chemistry experiments, create colorful reactions, and learn about the properties of different substances. Science Wizards aims to make science fun and accessible, and Chemistry Concoctions is a testament to their mission. Dive into the world of chemistry and become a true science wizard. Suitable for ages 9 and above."
+    },
+    {
+      "toyName": "Robotics Junior",
+      "sellerName": "TechTots",
+      "sellerEmail": "contact@techtots.com",
+      "subCategory": "technology-toys",
+      "price": "$59.99",
+      "rating": 4.4,
+      "availableQuantity": 200,
+      "pictureURL": "https://i.ibb.co/5vZHfc0/technology3.jpg",
+      "detailDescription": "Introduce your little one to the world of robotics with Robotics Junior. This beginner-friendly kit allows young children to build and program their own robots, fostering creativity and problem-solving skills. TechTots is dedicated to making technology education accessible to early learners, and Robotics Junior is a testament to their commitment. Nurture your child's interest in STEM from an early age with Robotics Junior. Suitable for ages 4-7."
+    }
+  ]
+  

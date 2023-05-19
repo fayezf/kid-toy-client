@@ -4,10 +4,10 @@ const Footer = () => {
     return (
         <footer className="footer footer-center p-10 bg-neutral-900 text-base-content rounded">
             <div className="grid grid-flow-col text-white gap-4">
-                <a className="link link-hover">Home</a>
-                <a className="link link-hover">Contact</a>
+                <a className="link link-hover">Information</a>
+                <a className="link link-hover">Support</a>
                 <a className="link link-hover">About us</a>
-                <a className="link link-hover">Location</a>
+                <a className="link link-hover">Contact</a>
             </div>
             <div>
                 <div className="grid grid-flow-col gap-4">

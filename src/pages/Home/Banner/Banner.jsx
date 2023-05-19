@@ -13,7 +13,7 @@ const Banner = () => {
                         <h2 className='text-6xl font-semibold'>A World To Explore</h2>
                         <p>Active toys for smart and active kids. Bring fun and non-stop learning for your little ones</p>
                         <div>
-                            <button className="btn btn-outline btn-secondary">Read More</button>
+                            <button className="btn btn-outline btn-secondary">Learn More</button>
                         </div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ const Banner = () => {
                         <h2 className='text-6xl font-semibold'>The Ultimate Toy Store</h2>
                         <p>Delivering smile with toys. Get your unbeatable fun and learning experience with our creative toys.</p>
                         <div>
-                            <button className="btn btn-outline btn-secondary">Read More</button>
+                            <button className="btn btn-outline btn-secondary">Learn More</button>
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@ const Banner = () => {
                         <h2 className='text-6xl font-semibold'>Extraordinary Learning Toys</h2>
                         <p>Premium toy for the genuine start. The best place to your buy dream toys. We provide toys for all age kids.</p>
                         <div>
-                            <button className="btn btn-outline btn-secondary">Read More</button>
+                            <button className="btn btn-outline btn-secondary">Learn More</button>
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@ const Banner = () => {
                         <h2 className='text-6xl font-semibold'>The Ultimate Toy Store</h2>
                         <p>Delivering smile with toys. Get your unbeatable fun and learning experience with our creative toys.</p>
                         <div>
-                            <button className="btn btn-outline btn-secondary">Read More</button>
+                            <button className="btn btn-outline btn-secondary">Learn More</button>
                         </div>
                     </div>
                 </div>
