@@ -6,13 +6,13 @@ import { AuthContext } from '../../providers/AuthProvider';
 
 const SignUp = () => {
 
-    const {createUser} = useContext(AuthContext)
+    const {createUser, updateUserProfile} = useContext(AuthContext)
 
     const handleSignUp = event => {
         event.preventDefault();
         const form = event.target;
         const name = form.name.value;
-        // const photo = form.photo.value;
+        const photo = form.photo.value;
         const email = form.email.value;
         const password = form.password.value;
         console.log(name, email, password)
@@ -20,6 +20,7 @@ const SignUp = () => {
         createUser(email, password)
         .then(result => {
             const user = result.user;
+            updateUserProfile(user, name, photo)
             console.log(user)
         })
         .catch(error => console.log(error))
@@ -45,7 +46,7 @@ const SignUp = () => {
                                 <label className="label">
                                     <span className="label-text">Photo URL</span>
                                 </label>
-                                <input type="text" name='photo' placeholder="Photo URL" className="input input-bordered"  />
+                                <input type="text" name='photo' placeholder="Photo URL" className="input input-bordered" required />
                             </div>
                             <div className="form-control">
                                 <label className="label">

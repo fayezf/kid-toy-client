@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-// import logo from '../../../assets/logo.svg';
+import { AuthContext } from '../../../providers/AuthProvider';
+import logo from '../../../assets/logo.svg';
 
 const NavBar = () => {
+    const { user, logOut } = useContext(AuthContext)
 
     const navItems = <>
         <li><Link to="/">Home</Link></li>
@@ -15,6 +17,14 @@ const NavBar = () => {
             : <li><Link to="/login">Login</Link></li>
         } */}
     </>
+
+    const handleLogout = () => {
+        logOut()
+            .then(() => {
+
+            })
+            .catch(error => console.log(error))
+    }
     return (
         <div className="navbar bg-base-100 h-28 mb-4">
             <div className="navbar-start">
@@ -27,8 +37,8 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <Link className="btn btn-ghost normal-case text-xl">
-                    {/* <img  src={logo} alt="" /> */}
-                    <h3 className='text-2xl font-semibold'><span className='text-lime-400'>Edu</span><span className='text-orange-500'>K</span>it</h3>
+                    <img  src={logo} alt="" />
+                    <h3 className='text-2xl font-semibold'><span className='text-lime-400'>Edu</span><span className='text-orange-500'>K</span>id</h3>
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
@@ -36,8 +46,19 @@ const NavBar = () => {
                     {navItems}
                 </ul>
             </div>
-            <div className="navbar-end">
-                <button className='btn btn-outline btn-accent'><Link to="/login">Login</Link></button>
+            <div className="navbar-end flex gap-3">
+                {
+                    user &&
+                    <div className="avatar online">
+                        <div className="w-18 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                            <img title={user.displayName} style={{ height: '3rem' }} src={user.photoURL} />
+                        </div>
+                    </div>
+                }
+
+                {user ? <button onClick={handleLogout} className="btn">Log Out</button> :
+                    <Link to='/login'> <button className="btn">Login</button></Link>}
+
             </div>
         </div>
     );
