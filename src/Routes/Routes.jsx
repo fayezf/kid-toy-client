@@ -7,6 +7,7 @@ import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Blogs from "../pages/Blogs/Blogs";
 import AddToy from "../pages/AddToy/AddToy";
 import AllToy from "../pages/AllToy/AllToy";
+import SingleData from "../pages/SingleData/SingleData";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,11 @@ const router = createBrowserRouter([
       {
         path: 'all',
         element: <AllToy></AllToy>
+      },
+      {
+        path: 'singleData/:id',
+        element: <SingleData></SingleData>,
+        loader: ({params}) => fetch(`http://localhost:5000/categories/${params.id}`)
       },
       {
         path: 'add',
