@@ -39,7 +39,7 @@ const NavBar = () => {
                 </div>
                 <Link className="btn btn-ghost normal-case text-xl">
                     <img  src={logo} alt="" />
-                    <h3 className='text-2xl font-semibold'><span className='text-lime-500'>Edu</span><span className='text-orange-600'>L</span>earn</h3>
+                    <h3 className='text-3xl font-semibold'><span className='text-lime-500'>Edu</span><span className='text-orange-600'>L</span>earn</h3>
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
