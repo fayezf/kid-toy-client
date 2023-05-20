@@ -9,6 +9,7 @@ const NavBar = () => {
     const navItems = <>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/all">All Toys</Link></li>
+        <li><Link to="/add">Add a Toy</Link></li>
         <li><Link to="/blogs">Blogs</Link></li>
         {/* {user?.email ? <>
             <li><Link to="/bookings">My Bookings</Link></li>
@@ -38,7 +39,7 @@ const NavBar = () => {
                 </div>
                 <Link className="btn btn-ghost normal-case text-xl">
                     <img  src={logo} alt="" />
-                    <h3 className='text-2xl font-semibold'><span className='text-lime-400'>Edu</span><span className='text-orange-500'>K</span>id</h3>
+                    <h3 className='text-2xl font-semibold'><span className='text-lime-500'>Edu</span><span className='text-orange-600'>L</span>earn</h3>
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">

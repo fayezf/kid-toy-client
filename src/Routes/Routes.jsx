@@ -5,35 +5,40 @@ import Login from "../pages/Login/Login";
 import SignUp from "../pages/Signup/Signup";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Blogs from "../pages/Blogs/Blogs";
+import AddToy from "../pages/AddToy/AddToy";
 
 const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <Main></Main>,
-      children: [
-        {
-            path: '/',
-            element: <Home></Home>
-        },
-        {
-          path: 'login',
-          element: <Login></Login>
-        },
-        {
-          path: 'signup',
-          element: <SignUp></SignUp>
-        },
-        {
-          path: 'blogs',
-          element: <Blogs></Blogs>
-        }
-      ]
-    },
-    {
-      path: '*',
-      element: <ErrorPage></ErrorPage>
-    }
-  ]);
+  {
+    path: "/",
+    element: <Main></Main>,
+    children: [
+      {
+        path: '/',
+        element: <Home></Home>
+      },
+      {
+        path: 'login',
+        element: <Login></Login>
+      },
+      {
+        path: 'signup',
+        element: <SignUp></SignUp>
+      },
+      {
+        path: 'add',
+        element: <AddToy></AddToy>
+      },
+      {
+        path: 'blogs',
+        element: <Blogs></Blogs>
+      }
+    ]
+  },
+  {
+    path: '*',
+    element: <ErrorPage></ErrorPage>
+  }
+]);
 
 
-  export default router;
+export default router;

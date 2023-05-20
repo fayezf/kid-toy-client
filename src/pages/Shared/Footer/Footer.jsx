@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../../assets/logo.svg';
+import { FaMailBulk, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 
 
 const Footer = () => {
@@ -21,18 +22,41 @@ const Footer = () => {
                 <a className="link link-hover">Refund & Return</a>
             </div>
             <div>
-                <span className="footer-title">Support</span>
-                <a className="link link-hover">Chat Support</a>
-                <a className="link link-hover">E-Mail Support</a>
-                <a className="link link-hover">Terms of Support</a>
-                <a className="link link-hover">Press Release</a>
+                <span className="footer-title">Subscribe</span>
+                <p>Get the latest news and updates from us.</p>
+                <form>
+                    <div>
+                        <input
+                            type="email"
+                            className="form-control"
+                            placeholder="Enter your email"
+                        />
+                    </div>
+                    <button type="submit" className="btn mt-2">
+                        Subscribe
+                    </button>
+                </form>
             </div>
             <div>
-                <span className="footer-title">About</span>
-                <a className="link link-hover">History</a>
-                <a className="link link-hover">Services</a>
-                <a className="link link-hover">Contact</a>
-                <a className="link link-hover">Privacy Policy</a>
+                <span className="footer-title">Contact us</span>
+                <div className='flex items-center gap-1'>
+                    <a className="link link-hover text-sky-300"><FaMailBulk /></a>
+                    <div>
+                        <a className="link link-hover">edu@learn.com</a>
+                    </div>
+                </div>
+                <div className='flex items-center gap-1'>
+                    <a className="link link-hover text-green-300"><FaPhoneAlt /></a>
+                    <div>
+                        <a className="link link-hover">+1 (234) 567 890</a>
+                    </div>
+                </div>
+                <div className='flex items-center gap-1'>
+                    <a className="link link-hover text-green-300"><FaMapMarkerAlt /></a>
+                    <div>
+                        <a className="link link-hover">123 New york,USA</a>
+                    </div>
+                </div>
             </div>
         </footer>
     );
