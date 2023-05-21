@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { AuthContext } from '../../providers/AuthProvider';
 import MyToysRow from './MyToysRow';
+import Swal from 'sweetalert2';
 
 const MyToy = () => {
     const { user } = useContext(AuthContext);
@@ -11,7 +12,7 @@ const MyToy = () => {
             .then(res => res.json())
             .then(result => setMyToys(result))
     }, [])
-    
+
     const handleUpdateToy = id => {
         fetch(`http://localhost:5000/myToys/${id}`, {
             method: 'PATCH',
@@ -33,7 +34,29 @@ const MyToy = () => {
                 }
             })
     }
-    
+
+    const handleDelete = id => {
+        const proceed = confirm('Are you sure you want to delete')
+        if (proceed) {
+            fetch(`http://localhost:5000/myToys/${id}`, {
+                method: 'DELETE'
+            })
+                .then(res => res.json())
+                .then(data => {
+                    console.log(data)
+                    if (data.deletedCount > 0) {
+                        Swal.fire({
+                            title: 'Success!',
+                            text: 'Deleted successfully',
+                            icon: 'error',
+                            confirmButtonText: 'Cool'
+                        })
+                        const remaining = myToys.filter(myToy => myToy._id !== id);
+                        setMyToys(remaining);
+                    }
+                })
+        }
+    }
     return (
         <div className='mt-4'>
             <h2 className='text-orange-600 text-3xl text-center'>My Toys</h2>
@@ -56,6 +79,7 @@ const MyToy = () => {
                                 key={myToy._id}
                                 myToy={myToy}
                                 handleUpdateToy={handleUpdateToy}
+                                handleDelete={handleDelete}
                             ></MyToysRow>)
                         }
                     </tbody>

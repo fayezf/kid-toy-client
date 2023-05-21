@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-const MyToysRow = ({ myToy, handleUpdateToy }) => {
+const MyToysRow = ({ myToy, handleUpdateToy, handleDelete}) => {
     const { _id, toyName, price, availableQuantity, detailDescription, status } = myToy;
     return (
         <tr>
@@ -18,7 +17,7 @@ const MyToysRow = ({ myToy, handleUpdateToy }) => {
             </th>
             <th>
                 {
-                    <button className="btn bg-orange-400 text-white font-semibold btn-xs">Delete</button>
+                    <button onClick={() => handleDelete(_id)}  className="btn bg-orange-400 text-white font-semibold btn-xs">Delete</button>
                     }
             </th>
         </tr>
