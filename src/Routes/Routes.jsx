@@ -27,7 +27,7 @@ const router = createBrowserRouter([
         element: <SignUp></SignUp>
       },
       {
-        path: 'all',
+        path: 'allToys',
         element: <AllToy></AllToy>
       },
       {
@@ -36,7 +36,7 @@ const router = createBrowserRouter([
         loader: ({params}) => fetch(`http://localhost:5000/categories/${params.id}`)
       },
       {
-        path: 'add',
+        path: '/addToy',
         element: <AddToy></AddToy>
       },
       {
