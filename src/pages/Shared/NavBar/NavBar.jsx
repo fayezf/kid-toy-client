@@ -9,7 +9,8 @@ const NavBar = () => {
     const navItems = <>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/allToys">All Toys</Link></li>
-        <li><Link to="/addToy">Add a Toy</Link></li>
+        <li><Link to="/addToys">Add a Toy</Link></li>
+        <li><Link to="/myToys">My Toy</Link></li>
         <li><Link to="/blogs">Blogs</Link></li>
         {/* {user?.email ? <>
             <li><Link to="/bookings">My Bookings</Link></li>

@@ -5,7 +5,7 @@ const AllToy = () => {
     const [categories, setCategories] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/categories')
+        fetch('http://localhost:5000/allToys')
         .then(res => res.json())
         .then(data => setCategories(data))
     }, [])
@@ -28,7 +28,7 @@ const AllToy = () => {
                     </thead>
                     <tbody>
                         {
-                            categories.map(category => <AllToysCard
+                            categories?.map(category => <AllToysCard
                             key={category._id}
                             category={category}
                             ></AllToysCard>)

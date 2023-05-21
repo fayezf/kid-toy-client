@@ -8,7 +8,7 @@ const AddToy = () => {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = data => {
         // console.log(data);
-        fetch('http://localhost:5000/addToy', {
+        fetch('http://localhost:5000/addToys', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -108,7 +108,8 @@ const AddToy = () => {
                         </label>
                     </div>
                 </div>
-                <div className="mb-8">
+                {/* form sub-category and type row */}
+                <div className="flex gap-x-3 mb-8">
                     <div className="form-control w-1/2">
                         <label className="label">
                             <span className="label-text">Sub Category</span>
@@ -121,6 +122,22 @@ const AddToy = () => {
                                 <option value="science kits">Science kits</option>
                                 <option value="math learning toys">Math learning toys</option>
                                 <option value="engineering kits">Engineering kits</option>
+
+                            </select>
+                        </label>
+                    </div>
+                    <div className="form-control w-1/2">
+                        <label className="label">
+                            <span className="label-text">Type</span>
+                        </label>
+                        <label className="input-group">
+                            <span>Type</span>
+                            <select className="input input-bordered w-full" {...register("type")}>
+
+                                <option></option>
+                                <option value="chemistry toys">Chemistry toys</option>
+                                <option value="math toys">Math Toys</option>
+                                <option value="technology toys">Technology Toys</option>
 
                             </select>
                         </label>
