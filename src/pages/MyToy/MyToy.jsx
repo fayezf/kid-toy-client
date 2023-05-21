@@ -8,13 +8,13 @@ const MyToy = () => {
     const [myToys, setMyToys] = useState([])
 
     useEffect(() => {
-        fetch(`http://localhost:5000/myToys/${user?.email}`)
+        fetch(`https://assignment-11-server-iota-one.vercel.app/myToys/${user?.email}`)
             .then(res => res.json())
             .then(result => setMyToys(result))
     }, [])
 
     const handleUpdateToy = id => {
-        fetch(`http://localhost:5000/myToys/${id}`, {
+        fetch(`https://assignment-11-server-iota-one.vercel.app/myToys/${id}`, {
             method: 'PATCH',
             headers: {
                 'content-type': 'application/json'
@@ -38,7 +38,7 @@ const MyToy = () => {
     const handleDelete = id => {
         const proceed = confirm('Are you sure you want to delete')
         if (proceed) {
-            fetch(`http://localhost:5000/myToys/${id}`, {
+            fetch(`https://assignment-11-server-iota-one.vercel.app/myToys/${id}`, {
                 method: 'DELETE'
             })
                 .then(res => res.json())

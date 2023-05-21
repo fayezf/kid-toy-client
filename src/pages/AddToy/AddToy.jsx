@@ -8,7 +8,7 @@ const AddToy = () => {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = data => {
         // console.log(data);
-        fetch('http://localhost:5000/addToys', {
+        fetch('https://assignment-11-server-iota-one.vercel.app/addToys', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

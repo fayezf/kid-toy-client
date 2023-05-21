@@ -35,7 +35,7 @@ const router = createBrowserRouter([
       {
         path: 'singleData/:id',
         element: <PrivateRoute><SingleData></SingleData></PrivateRoute>,
-        loader: ({params}) => fetch(`http://localhost:5000/allToys/${params.id}`)
+        loader: ({params}) => fetch(`https://assignment-11-server-iota-one.vercel.app/allToys/${params.id}`)
       },
       {
         path: '/addToys',
