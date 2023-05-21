@@ -10,7 +10,7 @@ const Gallery = () => {
     return (
         <div className='mt-8'>
             <h2 className='text-center text-3xl text-green-800'>Our popular figure</h2>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-6 w-3/4 ml-36 mt-4'>
+            <div className='grid grid-cols-1 p-5 md:grid-cols-2 gap-6 w-3/4 ml-36 mt-4'>
                 <img className='rounded-lg' src={pcl1} alt="" />
                 <img className='rounded-lg' src={pcl2} alt="" />
                 <img className='rounded-lg' src={pcl3} alt="" />
