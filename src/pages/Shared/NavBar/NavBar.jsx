@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../../providers/AuthProvider';
-import logo from '../../../assets/logo.svg';
+import logo from '../../../assets/images/toy.png';
 
 const NavBar = () => {
     const { user, logOut } = useContext(AuthContext)
@@ -33,9 +33,8 @@ const NavBar = () => {
                         {navItems}
                     </ul>
                 </div>
-                <Link className="btn btn-ghost normal-case text-xl">
-                    <img  src={logo} alt="" />
-                    <h3 className='text-3xl font-semibold'><span className='text-lime-500'>Edu</span><span className='text-orange-600'>L</span>earn</h3>
+                <Link to="/">
+                    <img style={{width: '160px'}}  src={logo} alt="" />
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
@@ -48,7 +47,7 @@ const NavBar = () => {
                     user &&
                     <div className="avatar online">
                         <div className="w-18 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                            <img title={user.displayName} style={{ height: '3rem' }} src={user.photoURL} />
+                            <img title={user.displayName} style={{ height: '30px' }} src={user.photoURL} />
                         </div>
                     </div>
                 }
