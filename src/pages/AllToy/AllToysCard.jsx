@@ -16,7 +16,7 @@ const AllToysCard = ({ category }) => {
             <td>${availableQuantity}</td>
             <th>
                 <Link to={`/singleData/${_id}`}>
-                    <button className="btn btn-ghost font-semibold btn-xs">View Details</button>
+                    <button className="btn btn-primary font-semibold btn-xs">View Details</button>
                 </Link>
             </th>
         </tr>

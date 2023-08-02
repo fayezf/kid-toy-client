@@ -30,7 +30,7 @@ const AddToy = () => {
     };
     return (
         <div className="bg-[#F4F3F0] p-24">
-            <h2 className="text-3xl text-center mb-4 font-extrabold">Add a Toy</h2>
+            <h2 className="text-3xl text-center text-black mb-4 font-semibold">Add a Toy</h2>
             <form onSubmit={handleSubmit(onSubmit)}>
                 {/* form name and available quantity row */}
                 <div className="md:flex gap-x-3 mb-8">

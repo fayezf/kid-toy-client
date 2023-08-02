@@ -8,7 +8,7 @@ const SingleData = () => {
     const { _id, sellerName, toyName, subCategory, sellerEmail, price, detailDescription, rating, pictureURL, availableQuantity } = category;
     return (
         <div className='mt-4'>
-            <h2 className='text-3xl text-center text-red-600'>Single Toys Data</h2>
+            <h2 className='text-3xl text-center font-semibold text-black'>Single Toys Data</h2>
             <div className='flex items-center mt-8 gap-6'>
                 <img className='rounded-lg' style={{ width: '500px' }} src={pictureURL} alt="" />
                 <div>

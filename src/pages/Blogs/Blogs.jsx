@@ -3,8 +3,8 @@ import React from 'react';
 const Blogs = () => {
     return (
         <div>
-            <h2 className='text-center text-3xl text-red-600'>Questions Area</h2>
-            <div>
+            <h2 className='text-center text-3xl text-black'>Questions Area</h2>
+            <div className='px-8'>
                 <h3 className='font-semibold'>1. What is an access token and refresh token? How do they work and where should we store them on the client-side?</h3>
                 <h5 className='text-2xl'>Answer: <span className='text-green-400'>Refresh tokens allow you to balance your users' access needs with your organization's security practices. Access tokens help users get the resources they need to complete their tasks, but such tokens can also expose your organization to data compromise or other malicious actions if a hacker is able to steal them.</span></h5>
                 <h3 className='font-semibold mt-4'>2. Comparison of SQL vs NoSQL?</h3>

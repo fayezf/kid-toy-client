@@ -7,12 +7,12 @@ const NavBar = () => {
     const { user, logOut } = useContext(AuthContext)
 
     const navItems = <>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/allToys">All Toys</Link></li>
-        <li><Link to="/addToys">Add a Toy</Link></li>
-        <li><Link to="/myToys">My Toy</Link></li>
-        <li><Link to="/blogs">Blogs</Link></li>
-        <li><Link to="/about">About</Link></li>
+        <li><Link to="/" className='font-medium'>Home</Link></li>
+        <li><Link to="/allToys" className='font-medium'>All Toys</Link></li>
+        <li><Link to="/addToys" className='font-medium'>Add a Toy</Link></li>
+        <li><Link to="/myToys" className='font-medium'>My Toy</Link></li>
+        <li><Link to="/blogs" className='font-medium'>Blogs</Link></li>
+        <li><Link to="/about" className='font-medium'>About</Link></li>
     </>
 
     const handleLogout = () => {
@@ -23,7 +23,7 @@ const NavBar = () => {
             .catch(error => console.log(error))
     }
     return (
-        <div className="navbar bg-base-200 h-28 mb-4">
+        <div className="navbar bg-violet-200 h-28">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -34,7 +34,7 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <Link to="/">
-                    <img style={{width: '160px'}}  src={logo} alt="" />
+                    <img style={{ width: '160px' }} src={logo} alt="" />
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">

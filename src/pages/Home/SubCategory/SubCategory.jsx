@@ -22,7 +22,7 @@ const SubCategory = () => {
     return (
         <div className='mt-8'>
             <div className='text-center'>
-                <h2 className='text-3xl text-green-800 mb-4'>Shop By Category</h2>
+                <h2 className='text-3xl text-black font-semibold mb-4'>Shop By Category</h2>
 
                 <Tabs defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
                     <TabList>

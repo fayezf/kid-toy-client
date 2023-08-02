@@ -4,7 +4,7 @@ const Banner = () => {
     return (
         <div className="carousel w-full h-[600px]">
             <div className="carousel-item relative w-full">
-                <img src={img} className="w-full rounded-xl" />
+                <img src={img} className="w-full" />
                 <div className="absolute flex items-center rounded-xl h-full left-0 top-0">
                     <div className='text-white space-y-7 pl-12 w-1/2'>
                         <h2 className='text-6xl font-semibold'>A World To Explore</h2>

@@ -59,7 +59,7 @@ const MyToy = () => {
     }
     return (
         <div className='mt-4'>
-            <h2 className='text-orange-600 text-3xl text-center'>My Toys</h2>
+            <h2 className='text-black font-semibold text-3xl text-center'>My Toys</h2>
             <div className="overflow-x-auto w-full">
                 <table className="table mt-4 w-full">
                     {/* head */}
