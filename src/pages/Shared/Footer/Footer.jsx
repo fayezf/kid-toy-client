@@ -5,7 +5,7 @@ import { FaMailBulk, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <footer className="footer p-10 bg-base-300 mt-8 text-base-content">
+        <footer className="footer p-10 bg-violet-200 mt-8 text-base-content">
             <div>
                 <img style={{width: '180px'}} src={logo} alt="" />
                 <div className='grid grid-flow-col gap-4 ml-6'>
