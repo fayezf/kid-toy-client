@@ -23,7 +23,7 @@ const NavBar = () => {
             .catch(error => console.log(error))
     }
     return (
-        <div className="navbar bg-violet-200 h-28">
+        <div className="navbar bg-white h-28">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -52,8 +52,8 @@ const NavBar = () => {
                     </div>
                 }
 
-                {user ? <button onClick={handleLogout} className="btn">Log Out</button> :
-                    <Link to='/login'> <button className="btn">Login</button></Link>}
+                {user ? <button onClick={handleLogout} className="btn btn-sm bg-blue-500 text-white font-medium">Log Out</button> :
+                    <Link to='/login'> <button className="btn btn-sm bg-blue-500 text-white font-medium">Login</button></Link>}
 
             </div>
         </div>

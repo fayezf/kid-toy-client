@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import login from '../../assets/images/login.jpg'
 import SocialLogin from '../Shared/SocialLogin/SocialLogin';
 import { AuthContext } from '../../providers/AuthProvider';
 
@@ -29,9 +28,6 @@ const SignUp = () => {
     return (
         <div className="hero min-h-screen bg-base-200">
             <div className="hero-content flex-col lg:flex-row">
-                <div className='w-1/2 mr-12'>
-                    <img className='rounded-lg' src={login} alt="" />
-                </div>
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                     <div className="card-body">
                         <h1 className="text-3xl text-center font-bold">Please Sign Up!!</h1>
